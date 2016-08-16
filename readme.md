@@ -30,6 +30,10 @@ queue.add(Job(2), (err, value) => assert.equal(results, [1, 2]))
 queue.add(Job(3), (err, value) => assert.equal(results, [1, 2, 3]))
 ```
 
+## Related
+
+- [queue-that-promise](https://github.com/ajoslin/queue-that-promise)
+
 ## License
 
 MIT © [Andrew Joslin](http://ajoslin.com)
