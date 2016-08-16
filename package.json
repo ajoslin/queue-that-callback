@@ -1,0 +1,29 @@
+{
+  "name": "queue-that-callback",
+  "main": "index.js",
+  "version": "0.0.0",
+  "description": "Run a queue of tasks, with classic callbacks to control task completion",
+  "license": "MIT",
+  "repository": "ajoslin/queue-that-callback",
+  "author": {
+    "name": "Andrew Joslin",
+    "email": "andrewtjoslin@gmail.com",
+    "url": "ajoslin.com"
+  },
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "keywords": [
+    "callback",
+    "simple",
+    "tiny",
+    "queue"
+  ],
+  "devDependencies": {
+    "tape": "^4.0.0",
+    "standard": "^7.0.0"
+  },
+  "files": [
+    "*.js"
+  ]
+}
