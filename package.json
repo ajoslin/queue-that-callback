@@ -1,7 +1,7 @@
 {
   "name": "queue-that-callback",
   "main": "index.js",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Run a queue of tasks, with classic callbacks to control task completion",
   "license": "MIT",
   "repository": "ajoslin/queue-that-callback",
